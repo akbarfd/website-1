@@ -1,0 +1,50 @@
+ 
+
+ .title{
+	position: absolute;
+	top: 8%;
+	left: 40%;
+	transform: translate(-50%,-50);
+	font-size: 35px;
+ }
+ .title h1{
+	color:rgb(59, 179, 179)
+ }
+ .button{
+	position: absolute;
+	top: 25%;
+	left: 33%;
+	transform:translate(-50%,-50) ;
+ }
+ .btn{
+	border: 1px solid rgb(255, 255, 255) ;
+	padding: 10px 40px;
+	color: white;
+	transition: 0.5 ease;
+	font-size: 25px;
+	text-decoration: none;
+ }
+ .logo{
+	position: absolute;
+	top: 20%;
+	left: 13%;
+	transform:translate(-50%,-50) ;
+ }
+ .subbab{
+	position: absolute;
+	top: 5%;
+	left: 70%;
+	transform:translate(-50%,-50) ;
+	font-size: 10px;
+ }
+ .subbab h1 li {
+	list-style: none ;
+	display: inline-block;
+	margin: 0 20px ;
+	position: relative;
+ }
+ .subbab h1 li a {
+	color: white;
+	text-transform: uppercase;
+ }
+ 
