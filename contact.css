@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.logo{
+    font-size: 17px;
+    margin-left: -610px;
+    margin-right: -60px;
+}
+.logo2{
+    font-size: 17px;
+    margin-left:10px;
+    margin-top: 40px;
+}
+.logo3{
+    font-size: 17px;
+    margin-left: 220px;
+    margin-top: -78px;
+}
+.sosmed {
+    margin-left: -425px;
+    margin-top: -70px;
+}
+.logo4{
+    font-size: 17px;
+    margin-left:0px;
+    margin-top: -225px;
+}
+
+.subbab{
+	position: absolute;
+	top: 6%;
+	left: 71%;
+	transform:translate(-50%,-50) ;
+	font-size: 10px;
+    font-family: 'Times New Roman';
+ }
+ .subbab h1 li {
+	list-style: none ;
+	display: inline-block;
+	margin: 0 20px ;
+	position: relative;
+ }
+ .subbab h1 li a {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+ }
+ 
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    height: 100vh;
+    margin: -20px 0 50px;
+    padding: 10px
+}
+.container {
+    top: 6%;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow : 0 14px 14px rgb(153, 153, 153), 0  10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 780px;
+    max-width: 100%;
+    min-height: 460px;
+    min-width: 370px;
+}
+.card-container {
+    display: flex;
+}
+.left {
+    flex: 1;
+    height: 530px;
+    background-color: aquamarine;
+
+}
+.right {
+    display: flex;
+    flex: 1;
+    height: 750px;
+    background-color: rgba(4, 124, 223, 0.61);
+    justify-content: center;
+    align-items: center;
+    margin-top: -385px;
+    margin-right: -170px;
+    margin-left: 780px;
+}
+.left {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: rgb(186, 190, 190);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-container {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    line-height: 22px;
+}
+.left p {
+    font-size: 0.9rem;
+}
+.left h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.right-container {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    line-height: 22px;
+    
+}
+
+input,
+textarea{
+    background-color: azure;
+    border: none;
+    padding: 12px 15px ;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+
+}
+input,
+textarea:focus{
+    outline: 1px solid rgb(41, 207, 0);
+}
+button{
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+    background-color: aqua;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 800ms ease-out;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+textarea {
+    height: 90px;
+}
+
+/* responsive */
+@media only screen and (max-width : 600px) { 
+    .left{
+        display: none;
+    }
+    .ig-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 600px) { 
+    .sm-view {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
